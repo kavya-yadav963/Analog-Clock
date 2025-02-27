@@ -43,20 +43,19 @@ git clone https://github.com/kavya-yadav963/clock-project.git
        * Rotations are calculated based on the current hour, minute, and second values.
 Code Breakdown 
 
-  JavaScript (code.js)
-  
-  setInterval(() => { </BR>
-    d = new Date();</BR>
-    htime = d.getHours();</BR>
-    mtime = d.getMinutes();</BR>
-    stime = d.getSeconds();</BR>
-    hrotation = 30 * htime + mtime / 2;</BR>
-    mrotation = 6 * mtime;</BR>
-    srotation = 6 * stime;</BR>
-    hour.style.transform = `rotate(${hrotation}deg)`;</BR>
-    mintues.style.transform = `rotate(${mrotation}deg)`;</BR>
-    second.style.transform = `rotate(${srotation}deg)`;</BR>
-}, 1000);</BR>
+   ## JavaScript (code.js)
+    setInterval(() => {
+        d = new Date();
+        htime = d.getHours();
+        mtime = d.getMinutes();
+        stime = d.getSeconds();
+        hrotation = 30 * htime + mtime / 2;
+        mrotation = 6 * mtime;
+        srotation = 6 * stime;
+        document.getElementById('hour').style.transform = `rotate(${hrotation}deg)`;
+        document.getElementById('mintues').style.transform = `rotate(${mrotation}deg)`;
+        document.getElementById('second').style.transform = `rotate(${srotation}deg)`;
+    }, 1000);
 
   CSS (style.css)
   
