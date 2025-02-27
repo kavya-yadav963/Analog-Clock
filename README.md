@@ -16,7 +16,7 @@ Features
 Files Structure
 
 /clock-project
-│-- index.html     # Main HTML file
+│-- index.html     # Main HTML file </BR>
 │-- style.css      # Styling for the clock
 │-- code.js        # JavaScript logic for clock movement
 │-- clock.png      # Clock background image
