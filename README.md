@@ -17,9 +17,9 @@ Files Structure
 
 /clock-project
 │-- index.html     # Main HTML file </BR>
-│-- style.css      # Styling for the clock
-│-- code.js        # JavaScript logic for clock movement
-│-- clock.png      # Clock background image
+│-- style.css      # Styling for the clock</BR>
+│-- code.js        # JavaScript logic for clock movement</BR>
+│-- clock.png      # Clock background image</BR>
 
 Installation and Usage
 1. Clone the repository:
